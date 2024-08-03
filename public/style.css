@@ -1,0 +1,62 @@
+body{
+
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+
+}
+
+.lista{
+
+    position: relative;
+    left: 50rem;
+    bottom:9rem;
+  
+}
+
+.total{
+
+    margin-left: 150px;
+}
+.botao-lista, .renderizar-lista {
+    margin-right: 100px;
+}
+
+.titulo_lista {
+    margin-right: 50px;
+    margin-top: 3px;
+}
+
+
+
+#createNome,#createEmail{
+    display: flex;
+   
+    flex-direction: column;
+  
+    
+    width: 30rem;
+   margin-bottom: 20px;
+}
+
+#submit{
+  
+    margin-left:80px ;
+    width: 15rem;
+}
+
+
+#createForm{
+     
+   
+    margin-right: 100px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cadastro participantes</title>
+  <link rel="stylesheet" href="style.css">
+  <link >
+</head>
+<body>
+  <h1>cadastre os participantes nos campos a baixo</h1>
+  
+ 
+     
+  <div class="total">
+    <h2>Criar Usuário</h2>
+    <form id="createForm">
+      <input type="text" id="createNome" placeholder="Nome" required>
+      <input type="email" id="createEmail" placeholder="Email" required>
+      <button type="submit" id="submit">Criar</button>
+    </form>
+
+
+<div  class="lista">
+  <div class="titulo_lista">
+      
+    <h2 class="usuario-title">participantes</h2>
+    
+
+    </div>
+
+    <div class="botao-lista">
+        
+      <button class="botao" onclick="readUsers()">Carregar participantes</button>
+
+
+    </div>
+   
+  <div class="renderizar-lista">
+    
+  
+    <ul id="usersList"></ul>
+
+  </div>
+</div>
+   
+ 
+  
+
+
+  </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
